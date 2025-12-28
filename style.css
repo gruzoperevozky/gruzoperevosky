@@ -139,7 +139,7 @@ footer {
     }
 
     .offer {
-        width: 100%; /* Каждая колонка на всю ширину */
+        width: 100% !important; /* Каждая колонка на всю ширину */
         min-height: auto; /* Убираем фиксированную высоту */
     }
 
@@ -169,6 +169,7 @@ footer {
         overflow-x: hidden;
     }
 }
+
 
 
 
