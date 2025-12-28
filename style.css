@@ -12,8 +12,9 @@ body {
 
 /* Верхний блок */
 .hero {
-    background: url('images/bk2.png') center/cover no-repeat;
+    background: url('images/bk2.png') no-repeat center center;
     background-size: cover;
+    width: 100%;
     height: 400px;
     position: relative;
     filter: brightness(130%);
@@ -156,6 +157,7 @@ footer {
         font-size:1.4rem;
     }
 }
+
 
 
 
