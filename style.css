@@ -81,7 +81,7 @@ h1{
     justify-content: space-around;
     padding: 20 20px; /* Уберите верхний отступ */
     gap: 20px;
-    margin-top: 20; /* Добавьте это */
+    margin-top: 20px; /* Добавьте это */
 }
 
 .offer {
@@ -156,5 +156,6 @@ footer {
         font-size:1.4rem;
     }
 }
+
 
 
