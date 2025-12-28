@@ -147,7 +147,7 @@ footer {
 
     /* Оптимизация для мобильных */
     .offer img {
-        height: 40vh; /* Делаем высоту адаптивной */
+        height: auto; /* Делаем высоту адаптивной */
         margin: 0px;
         padding: 0px;
         width: 100%; 
@@ -167,11 +167,12 @@ footer {
         font-size:1.4rem;
     }
     .hero, footer{
-        width: 100vw;
+        width: 100%;
         max-width: 100%;
         overflow-x: hidden;
     }
 }
+
 
 
 
