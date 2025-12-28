@@ -136,6 +136,7 @@ footer {
         display: flex;
         flex-direction: column; /* Меняем направление на вертикальное */
         gap: 20px;
+        align-items: center;
     }
 
     .offer {
@@ -169,6 +170,7 @@ footer {
         overflow-x: hidden;
     }
 }
+
 
 
 
