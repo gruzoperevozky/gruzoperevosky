@@ -147,7 +147,7 @@ footer {
 
     /* Оптимизация для мобильных */
     .offer img {
-        height: auto; /* Делаем высоту адаптивной */
+        height: 300px; /* Делаем высоту адаптивной */
         margin: 0px;
         padding: 0px;
         width: 100%; 
@@ -172,5 +172,6 @@ footer {
         overflow-x: hidden;
     }
 }
+
 
 
