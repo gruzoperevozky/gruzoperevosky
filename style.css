@@ -22,7 +22,7 @@ body {
 }
 
 .hero .overlay {
-    background: rgba(0, 0, 0, 0.5);
+    /*background: rgba(0, 0, 0, 0.5);*/
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -65,6 +65,15 @@ body {
     color: white; 
     text-shadow: 0 0 5px #00eaff;
 }
+h1{
+   color: #fff; 
+    font-weight: bold; 
+    font-size: 3rem; 
+    list-style: none; 
+    font-family: 'Orbitron';
+    color: white; 
+    text-shadow: 0 0 5px #00eaff; 
+}
 
 /* Основной блок */
 .offers {
@@ -83,14 +92,16 @@ body {
     width: 30%;
     text-align: center;
     min-height: 80vh;
-    padding: 0;
+    border: 8px solid #2c3e50; 
+    border-radius: 12px; /* скруглённые углы (по желанию) */
+ padding: 20px;
 }
 
 .offer img {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    margin: 30px; 
+    margin: 0px; 
 }
 
 .offer .text {
@@ -145,5 +156,9 @@ footer {
         font-size:1.4rem;
     }
 }
+
+
+
+
 
 
