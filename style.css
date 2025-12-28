@@ -136,12 +136,13 @@ footer {
         display: flex;
         flex-direction: column; /* Меняем направление на вертикальное */
         gap: 20px;
-        align-items: center;
+        flex-wrap: wrap;
     }
 
     .offer {
-        width: 100% !important; /* Каждая колонка на всю ширину */
+        width: 100%;/* Каждая колонка на всю ширину */
         min-height: auto; /* Убираем фиксированную высоту */
+        box-sizing: border-box;
     }
 
     /* Оптимизация для мобильных */
@@ -152,6 +153,7 @@ footer {
         width: 100%; 
          object-fit: cover; 
          display: block;
+         
     }
 
     .offer h3 {
@@ -170,11 +172,5 @@ footer {
         overflow-x: hidden;
     }
 }
-
-
-
-
-
-
 
 
